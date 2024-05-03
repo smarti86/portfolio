@@ -1,0 +1,80 @@
+  <!-- TO RUN IN BROWSER:
+    1. Install vscode extension Name: open in `browser open-in-browser` by TechER
+    2. Right click html file and either run in default browser or another browser
+  -->
+
+<!-- Reference: I took my html and css setup from the work that I did in the Winnie-The-Poo studio -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML/CSS Studio</title>
+    <!-- import CSS styles -->
+    <link rel="stylesheet" href="styles.css" /> 
+  </head>
+
+  <!-- page content goes into <body> -->
+    <body>
+
+      <!-- Referenced the CSS Navigation Bar W3 School webpage for a refresher on navigation bars
+      and got the idea to structure my navigation bar as: nav ul li a
+      https://www.w3schools.com/css/css_navbar.asp  -->
+      <!-- Used https://www.w3.org/TR/WCAG20-TECHS/H37.html to refresh my understanding on alt tags -->
+      <header>
+        <div class="container">
+          <div class="logo">
+            <a href="#"><img src="logo.png" alt="Logo"></a>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <section class="mesh-container-content">
+        <div class="container">
+          <h2>Sandy's Portfolio</h2>
+          <p>.</p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+      </section>
+
+
+      <!-- <div class> -->
+      <!-- Reference: referenced https://www.freecodecamp.org/news/html-new-line-br-tag-line-break/#:~:text=The%20tag%20is%20a%20simple%20and%20easy%20way%20to,readable%20and%20easier%20to%20understand.
+      to learn about text breaks -->
+      <!-- Reference: for indentation inside of text, I referenced StackOverflow post https://stackoverflow.com/questions/2512443/how-do-you-indent-every-line-of-a-span-element -->
+      <div class="content">
+        <div class="content-divs1" id="content-divs1">
+          <h2 class="content-div-subtitles" alt="About Us" aria-label="Development">Development</h2>
+          <p aria-label="">
+
+          </p>
+          <a href="#" class="btn">Learn More</a>
+        
+        </div>
+
+        <div class="content-divs2" id="content-divs2">
+          <h2 class="content-div-subtitles" alt="Directions" aria-label="Iterative Design">Iterative Design</h2>
+          <p aria-label="" href="">
+           
+          </p>
+        </div>
+
+        <div class="content-divs3" id="content-divs3">
+          <h2 class="content-div-subtitles" alt="Hours" aria-label="Financial Modeling">Financial Modeling</h2>
+          <p aria-label="">
+            
+          </p>
+        </div>
+
+     
+    
+
+      </div>
+    </body>
+</html>
