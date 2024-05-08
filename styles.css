@@ -72,10 +72,10 @@ nav ul li a:hover {
   background-color: rgb(195, 195, 195)3c3;
 }
 
-.gif-container {
+/* .gif-container {
   flex: 1;
   padding-right: 20px;
-}
+} */
 
 .gif-waveing{
   max-width: 100%;
@@ -262,9 +262,9 @@ nav ul li a:hover {
     background-color: #cc0000; 
 }
 
-
 .projects-section {
-  text-align: center; 
+  text-align: center;  
+  padding-right: 70px; 
 }
 
 
@@ -279,9 +279,9 @@ nav ul li a:hover {
   justify-content: center; 
 }
 
-.projects-title {
+/* .projects-title {
   margin-right: 20px; 
-}
+} */
 
 .gif-container img {
   max-width: 100%; 
@@ -335,7 +335,7 @@ nav ul li a:hover {
     flex-wrap: wrap;
     align-content: flex-start;
     justify-content: center;
-    gap: 8em;
+    gap: 10em;
     padding-top: 0px;
     padding: 0px 0px;
   }
