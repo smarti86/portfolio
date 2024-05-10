@@ -1,62 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML/CSS Studio</title>
-    <!-- import CSS styles -->
-    <link rel="stylesheet" href="styles.css" /> 
-  </head>
-  <body>
-    <!-- Connect with leader; Competitive analysis; Create a low fidelity, 
-        mid fidelity, and high fidelity mockup of the purchase flow -->
-    <header>
-      <div class="container">
-        <div class="logo">
-          <a href="#"><img src="logo.png" alt="Logo"></a>
-        </div>
-        <nav>
-          <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML/CSS Studio</title>
+  <link rel="stylesheet" href="styles.css" /> 
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <!-- <div class="gif-container">
+        <img class="gif-waveing" src="assets/kisspng-the-cat-in-the-hat-clip-art-dr-seuss-5abeaaf1925e39.1503174915224450415995 (1).jpg" alt="Your GIF">
+      </div> -->
+
+
+      <!-- <div class="logo">
+        <p class="header-text">Sandra Martinez</p>
+      </div> -->
+      <nav>
+        <ul class="nav-list">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <h1 class="title-main-header">CUR8 Purchase Flow</h1>
+  <div class="gif-container">
+    <img src="assets/Screenshot 2024-05-08 at 3.02.39 PM.png" alt="Your GIF">
+</div>
+
+<div class="split-section-white">
+  <div class="website">
+    <a href="" class="website-button">View Figma</a>
+  </div>
+</div>
+
+  <div class="split-section-green">
+    <div class="sidebar">
+      <h2 class="header">Role</h2>
+      <h2 class="header">Timeline</h2>
+      <h2 class="header">Team</h2>
+      <h2 class="header">Process</h2>
+      <h2 class="header">Tools</h2>
+    </div>
+    <div class="case-content">
+      
+      <p class="header">
+        Team Designer
+      </p>
+   
+      <p class="header">
+        3 weeks
+      </p>
+      
+      <p class="header">
+        Group Project for the Brown University CSCI 1300 Course
+      </p>
+      
+      <p class="header">
+        Connect with leader; Competitive analysis; Create a low fidelity, 
+         mid fidelity, and high fidelity mockup of the purchase flow
+      </p>
+     
+      <p class="header">
+        Figma
+      </p>
+    </div>
+  </div>
+
+
+
+  <div class="split-section-white">
+    <div class="sidebar">
+      <h2 class="header">Problem:</h2>
+    </div>
+    <div class="case-content">
+      <p>
+        Create a streamlined purchasing flow for CUR8, a carbon 
+        removal brokerage aiming to remove 1 billion tonnes of carbon annually. 
+      </p>
+      <p>
+        The existing over-the-hone portfolio creation process slowed down customer acquisition. 
+        We aimed to simplify this process,ensuring users could purchase carbon removal portfolios straight from the CUR8 website
+      </p>
+    </div>
+  </div>
+
+  <div class="split-section-green">
+    <div class="sidebar">
+      <h2 class="header">Research:</h2>
+    </div>
+    <div class="case-content">
+      <p>
+        We conducted a competitive analysis. After dicussing about CUR8's goals, we identified: 
+        </p>
+        <ul>
+          <li> <a href="https://lune.co/">Lune's</a> journey to curate carbon credit portfolios as intuative</li>
+          <li> <a href="https://frontierccus.com/">Frontier's</a> portfolio breakdown and projects details as a helpful feature</li>
+        </ul>
+      <p>
+        Our peers and TAs also gave us feedback on our low-fidelity mockup. With their help, we
+        added a feature for stakeholder collaboration for an intuitive, frictionless purchasing flow.
+      </p>
+    </div>
+  </div>
+
+
+  <div class="split-section-white">
+    <div class="sidebar">
+      <h2 class="header">Process Details:</h2>
+    </div>
+    <div class="case-content">
+      <p>
+        Our design iterations began with independent sketches, resulting in eight 
+        distinct flows. Here are 2 examples:
+      </p>
+      <img class="competitive-analysis-table" src="assets/Screenshot 2024-05-09 at 8.59.01 PM.png" alt="Competitive Analysis Table">
+      <P>
+        For our first iteration wireframing: <br>We consolidated our ideas, focusing on 4 essential pages:
+        portfolio summary, cart, and confirmation. 
+      </p>  
+      <img class="competitive-analysis-table" src="assets/Screenshot 2024-05-09 at 9.00.48 PM.png" alt="Competitive Analysis Table">
+      <!-- <p>
+      For our second iteration wireframing: <br>Feedback from CUR8 and peers guided our design decisions, leading to adjustments like adding back 
+        buttons for usability and adding a feature for stakeholder collaboration. 
+      </p>
+      <img class="competitive-analysis-table" src="assets/Screenshot 2024-05-09 at 9.05.57 PM.png" alt="Competitive Analysis Table">
+       -->
+       <p>
+        For our last iteration wireframing: Focusing solely on payment pages that I developed, 
+        users review their portfolio and proceed to the purchase request page. If stakeholders 
+        weren't previously invited, a banner alert prompts users to do so. Upon submission, 
+        users receive a confirmation message to return to their portfolio or exit.
+      </p>
+      <img class="competitive-analysis-table" src="assets/Screenshot 2024-05-09 at 9.06.57 PM.png" alt="Competitive Analysis Table">
+ 
+    </div>
+  </div>
+  
+  <div class="split-section-green">
+    <div class="sidebar">
+      <h2 class="header">Solution:</h2>
+    </div>
+    <div class="case-content">
+      <p>
+        Our final design comprised a cohesive purchasing flow tailored 
+        to CUR8's requirements. 
+      </p>
+      <p>
+      The flow seamlessly guided users through project 
+        selection, stakeholder collaboration, and purchase request submission. 
+        Features like project breakdowns, stakeholder feedback, and a receipt-like 
+        review page enhanced user understanding and engagement. By aligning with 
+        CUR8's brand identity and providing a user-friendly experience, our solution 
+        aimed to streamline the carbon removal portfolio purchasing process.
+      </p>
+    </div>
+  </div>
+
+  <div class="split-section-white">
+    <div class="sidebar">
+      <h2 class="header">Learnings:</h2>
+    </div>
+    <div class="case-content">
+      <ul>
+        <li>Adapting our designs based on peer feedback and research findings</li>
+        <li>Working for CUR8 and having their needs guide our project direction</li>
+        <li>Industry communications and Zoom etiquette </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="split-section-green">
+    <div class="sidebar">
+      <h2 class="header">Role:</h2>
+    </div>
+    <div class="case-content">
+      <p>
+        As part of a multidisciplinary team including Angie Osei-Ampadu, Sandy Martinez, 
+        and Ashley Cai, I played a collaborative role in designing and refining CUR8's 
+        purchasing flow. 
+      </p>
+    </div>
+  </div>
+
+  <div class="split-section-white">
+    <div class="back-button">
+      <a href="index.html" class="back-button">Back</a>
+    </div>
+  </div>
+  
+  
+
+
+ <footer class="site-footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-column">
+        <h4>About Us</h4>
+        <p>We are a team of creative minds, passionate about building amazing websites and applications.</p>
       </div>
-    </header>
-
-    <h1> Iterative Design </h1>
-    <h2> Context/Problem:</h2>
-      <div>
-        Our task was to create a streamlined purchasing flow for CUR8, a carbon removal brokerage 
-        aiming to remove 1 billion tonnes of carbon annually. The existing manual portfolio creation 
-        process inhibited user self-service and slowed down customer acquisition. We aimed to simplify
-         this process, ensuring users could purchase carbon removal portfolios tailored to their needs
-          with ease.
+      <div class="footer-column">
+        <h4>Connect With Us</h4>
+        <ul class="social-icons">
+          <li><a href="#" class="fab fa-facebook-f"></a></li>
+          <li><a href="#" class="fab fa-twitter"></a></li>
+          <li><a href="#" class="fab fa-instagram"></a></li>
+          <li><a href="#" class="fab fa-linkedin-in"></a></li>
+        </ul>
       </div>
-
-    <h2>Research: </h2>
-    <div>
-
+      <div class="footer-column">
+        <h4>Contact Us</h4>
+        <p>Email: info@example.com</p>
+        <p>Phone: +1234567890</p>
+      </div>
     </div>
+  </div>
+</footer>
 
-    <h2>Process: </h2>
-    <div>
-      
-    </div>
-
-    <h2>Solution:</h2>
-    <div>
-      
-    </div>
-
-    <h2>Learnings:</h2>
-    <div>
-      
-    </div>
-
-    <h2>Role:</h2>
-    <div>
-      
-    </div>
-
-  </body>
+</body>
+</html>

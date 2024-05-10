@@ -7,7 +7,7 @@ body {
 
  /* Navigation Bar Styling */
  header {
-  background-color: #ffffff;
+  background-color: #81d8cf5b;
   color: #000000;
   padding: 20px 0;
   text-align: center;
@@ -134,7 +134,7 @@ body {
 
 .intro-button {
   display: inline-block;
-  background-color: #007bff;
+  background-color: red;
   color: #fff;
   padding: 10px 20px;
   text-decoration: none;
@@ -226,7 +226,7 @@ body {
   padding: 20px 0;
   padding-top: 20px; 
   padding-bottom: 20px;
-  background-color: hsl(0, 30%, 88%);
+  background-color: #81d8cf5b;
   border-color: #333;
 }
 /* 
@@ -302,7 +302,7 @@ body {
 .content-divs1, .content-divs2, .content-divs3, .content-divs4 {
     width: 30em;
     height: 30em;
-    background-color: #e2e7eb;
+    background-color: #81d8cf5b;
     padding: 10px 30px;
     /* padding: 20px; */
     border-radius: 10px;
