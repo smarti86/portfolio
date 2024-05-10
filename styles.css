@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: work-sans, sans-serif;
 }
 
  /* Navigation Bar Styling */
@@ -10,7 +10,12 @@ body {
   background-color: #81d8cf5b;
   color: #000000;
   padding: 20px 0;
-  text-align: center;
+  text-align: right;
+  align-items: center;
+  font-family: work-sans, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 3vw;
 }
 
 .container {
@@ -22,20 +27,29 @@ body {
 .header-text {
   font-size: 36px; 
   font:  Arial, sans-serif;
-  text-transform: uppercase;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
   margin: 0;
+  font-weight: 1%;
 }
-
+.my-name{
+  margin-right: 800px; 
+  text-align: center;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 2vw;
+}
 .nav-list {
+  padding-right: 80px;
   list-style: none;
-  padding: 0;
+  padding: 50;
   margin: 0;
   display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: flex-end; /* Align items horizontally to the right */
 }
 
 .nav-list li {
-  margin-right: 20px; 
+  margin-right: 30px; 
 }
 
 .nav-list li:last-child {
@@ -57,7 +71,8 @@ body {
 .container {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  justify-content: flex-end;
+  padding: 15px;
 }
 
 /* .logo img {
@@ -110,12 +125,18 @@ body {
   border-radius: 10px;
   padding-left: 200px;
 }
-
+.about-me{
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 20px;
+ 
+}
 .introduction-text {
   background-color: #f0f0f0;
   padding: 20px;
   border-radius: 10px;
-  width: 70%;
+  /* width: 70%; */
   /* margin: 0 auto; */
   text-align: left;
   max-width: 900px; 
@@ -127,9 +148,10 @@ body {
 }
 
 .introduction-text p {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.5;
   margin-bottom: 20px;
+ 
 }
 
 .intro-button {
@@ -176,7 +198,7 @@ body {
   font-size: 2vw; 
   padding: 10px 0; 
 
-  font-family: work-sans, sans-serif;
+  font-family:work-sans, sans-serif;
   font-weight: 600;
   font-style: normal;
   /* font-size: 25px; */
@@ -318,7 +340,7 @@ body {
 }
 
 .content-divs1 h2 {
-  font-size: 1.8rem; 
+  font-size: 2rem; 
   color: #ff0000; 
   margin-bottom: 15px; 
 }
@@ -327,6 +349,13 @@ body {
     font-size: 1.2rem; 
     color: #ff0000; 
     margin-bottom: 20px; 
+}
+/* .content-div-subtitles{
+  align-items: center;
+  text-align: center;
+} */
+.development-text{
+  font-weight: 500;
 }
 
 .case-specific-button {
@@ -388,64 +417,70 @@ body {
 
 
   /* Footer */
- .site-footer {
-  background-color: #f8f8f8;
-  color: #333;
-  padding: 50px 0;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
-.footer-content {
-  display: flex;
-  justify-content: space-between;
-}
-
-.footer-column {
-  flex: 1;
-  padding: 0 15px;
-}
-
-.footer-column h4 {
-  font-size: 18px;
-  margin-bottom: 15px;
-}
-
-.footer-column p {
-  margin: 0;
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-.social-icons {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.social-icons li {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.social-icons a {
-  color: #333;
-  font-size: 24px;
-  text-decoration: none;
-}
-
+  footer {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+  }
   
-
-
-.linkedin-image {
-  width: 40px; 
-  height: auto; 
-  vertical-align: middle; 
-}
+  .gif-container {
+    margin-right: 50px;
+  }
+  
+  .footer-info {
+    flex-grow: 1;
+  }
+  
+  .footer-top {
+    padding-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-bottom {
+    padding: 30px;
+    padding-left: 100px;
+    padding-right: 105px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .big-text {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .small-text {
+    font-size: 24px;
+    
+  }
+  
+  .back-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #FF3333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact-links a {
+    font-size: 26px;
+    font-weight: 600;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #FF3333;
+  }
+  
+  .contact-links a i {
+    margin-left: 5px;
+  }
+  
+  
+  
 
 /* Reference: Code is from my responsive redesign assignment so that the cards work well with the resizing of screens*/
 @media (max-width: 429px) {
