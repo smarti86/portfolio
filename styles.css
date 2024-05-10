@@ -17,13 +17,12 @@ body {
   font-style: normal;
   font-size: 3vw;
 }
-
 .container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; 
+  padding: 15px;
 }
-
 .header-text {
   font-size: 36px; 
   font:  Arial, sans-serif;
@@ -31,6 +30,10 @@ body {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
   margin: 0;
   font-weight: 1%;
+}
+.header-link{
+  color: inherit;
+  text-decoration: none;
 }
 .my-name{
   margin-right: 800px; 
@@ -46,55 +49,27 @@ body {
   padding: 50;
   margin: 0;
   display: flex;
-  align-items: center; /* Align items vertically */
-  justify-content: flex-end; /* Align items horizontally to the right */
+  align-items: center; 
+  justify-content: flex-end; 
 }
-
 .nav-list li {
   margin-right: 30px; 
 }
-
-.nav-list li:last-child {
-  margin-right: 0; 
-}
-
 .nav-list a {
   font-size: 24px; 
   text-decoration: none;
   color: #393f28;
 }
-
-
-
-
-
-
-/* Homepage */
-.container {
-  display: flex;
-  justify-content: space-between;
-  justify-content: flex-end;
-  padding: 15px;
-}
-
-/* .logo img {
-  max-width: 100px;
-} */
-
-
 .mesh-container-content {
   display: flex;
   align-items: center;
-  /* padding: 50px 0; */
   text-align: center;
 }
-
 .mesh-container-content h2 {
   font-size: 2.5rem;
   color: #393f28;
   padding-bottom: 1%;
 }
-
 .mesh-container-content p {
   font-size: 1.1rem;
   margin-bottom: 20px;
@@ -105,121 +80,60 @@ body {
   padding-top: 2%;
   padding-bottom: 1%;
 }
-.btn {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #e1dada;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-
 .mesh-container-content .btn:hover {
   background-color: rgb(195, 195, 195)3c3;
 }
-
-/* .gif-container {
-  flex: 1;
-  padding-right: 20px;
-} */
-
 .gif-waveing{
-  max-width: 100%;
   border-radius: 10px;
   padding-left: 200px;
-}
-.about-me{
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 1.5;
-  margin-bottom: 20px;
-  color: #393f28;
-  text-shadow: 2px 2px 4px rgba(206, 137, 137, 0.5);
- 
 }
 .introduction-text {
   background-color: #f0f0f0;
   padding: 20px;
   border-radius: 10px;
-  /* width: 70%; */
-  /* margin: 0 auto; */
   text-align: left;
   max-width: 900px; 
   color: #393f28;
 }
-
 .introduction-text h2 {
   margin-bottom: 10px;
   font-size: 24px;
 }
-
 .introduction-text p {
   font-size: 20px;
   line-height: 1.5;
   margin-bottom: 20px;
- 
 }
-
-.intro-button {
-  display: inline-block;
-  background-color: red;
-  color: #fff;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-
-.intro-button:hover {
-  background-color: #0056b3;
-}
-
-/* .introduction-text {
-  background-color: #f0f0f0;
-  padding: 20px;
-  border-radius: 10px;
-  width: 70%;
-  margin: 0 auto;
-  text-align: left;
-  max-width: 800px; 
-} */
-
 
 
 /* Case General Styling -- Referenced the handin page my teammates and I worked on for Iterative Design */
 .title-main-header {
   text-align: center;
-  /* padding: 20px 0; */
   padding-top: 50px;
+  
   font-family: work-sans, sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 3vw;
   color: #393f28;
 }
-
 .header {
   font-size: 2vw; 
   padding: 10px 0; 
   font-family:work-sans, sans-serif;
   font-weight: 600;
   font-style: normal;
-  /* font-size: 25px; */
   color: #393f28;
   text-align: left;
 }
-
 .case-content p{
   font-size: 1.5vw; 
   line-height: 1.5;
   color: #393f28;
   font-family: work-sans, sans-serif;
   font-weight: 400;
-  /* font-size: 23px; */
   font-style: normal;
 }
-
 .case-content ul {
   color: #393f28;
   font-size: 1.5vw; 
@@ -227,12 +141,6 @@ body {
   list-style-type: disc;
   padding-left: 20px; 
 }
-
-/* .case-content li {
-  font-size: 1.5vw; 
-  line-height: 1.5; 
-} */
-
 .case-content img {
   color: #393f28;
   max-width: 100%;
@@ -240,7 +148,6 @@ body {
   display: block; 
   margin: 0 auto; 
 }
-  
 .split-section-white {
   display: flex;
   padding-top: 20px; 
@@ -257,64 +164,23 @@ body {
   background-color: #81d8cf5b;
   border-color: #333;
 }
-/* 
-.full-section {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 10vw;
-  padding-right: 15vw;
-} */
-
 .sidebar {
-  /* width: 30%; 
-  text-align: left;  */
   width: 20vw;
   padding-left: 10vw;
   text-align:start;
 }
-.sidebar1 {
-  /* width: 30%; 
-  text-align: left;  */
-  width: 40vw;
-  /* padding-left: 10vw; */
-  text-align:start;
-}
-
-
-.about-me-text{
-  
-  font-size: 1.21vw; 
-  line-height: 1.5;
-
-  font-family: work-sans, sans-serif;
-  font-weight: 400;
-  /* font-size: 23px; */
-  font-style: normal;
-  
-}
-
 .poem {
   padding: 20px;
   padding-top: 60px;
   text-align: center;
   font-style: italic;
   line-height: 1.5;
-}
-
-.poem br {
-  display: none;
-}
-
-  
+} 
 .case-content {
   width: 65%; 
-  /* width: 80vw; */
-  /* padding: 10px 0;  */
   padding-left: 8vw;
   padding-right: 8vw;
 }
-
-
 .website-button, .back-button {
   display: inline-block;
   padding: 10px 20px;
@@ -324,300 +190,223 @@ body {
   border-radius: 5px;
   transition: background-color 0.3s ease; 
 }
-
-.website-button:hover,
-.back-button:hover {
+.website-button:hover,.back-button:hover {
   background-color: hsl(0, 30%, 88%); 
 }
-
-/* Centering buttons on the page */
-.split-section-white,
-.split-section-green {
+.split-section-white, .split-section-green {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px 0; 
-}
-
-  
+} 
   
 /* Project Section of Home Page */
-/* .content-divs1 {
-  width: 300px; 
-  background-color: #ffebcd; 
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-}*/
-/* .content {
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-  gap: 3em;
-  flex-grow: 1;
-  padding: 0 40px;
-  display: flex;
-  flex-direction: row;
-}  */
-
 .content-divs1, .content-divs2, .content-divs3, .content-divs4 {
-    width: 30em;
-    height: 25em;
-    background-color: #81d8cf5b;
-    padding: 10px 30px;
-    /* padding: 20px; */
-    border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); 
-    transition: transform 0.3s ease; 
+  width: 30em;
+  height: 25em;
+  background-color: #81d8cf5b;
+  padding: 10px 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); 
+  /* transition: transform 0.3s ease;  */
 }
-
-
 .content-divs1 img {
   max-width: 100%; 
   display: block;
   margin-bottom: 20px; 
 }
-
 .content-divs1 h2 {
   font-size: 2rem; 
   color: #ff0000; 
   margin-bottom: 15px; 
 }
-
 .content-divs1 p {
-    font-size: 1.2rem; 
-    color: #ff0000; 
-    margin-bottom: 20px; 
+  font-size: 1.2rem; 
+  color: #ff0000; 
+  margin-bottom: 20px; 
 }
-/* .content-div-subtitles{
-  align-items: center;
-  text-align: center;
-} */
 .development-text{
   font-size: 1.2rem;
   font-weight: 550;
 }
-
 .case-specific-button {
-    display: inline-block;
-
-    padding: 10px 20px;
-
-    background-color: #ff0000; 
-    color: #fff;
-    padding: 12px 24px; 
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-    align-items: end;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff0000; 
+  color: #fff;
+  padding: 12px 24px; 
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  align-items: end;
 }
-
 .mesh-container-content .btn:hover {
   background-color: rgb(195, 195, 195)3c3;
 }
-
 .case-specific-button:hover {
-    background-color: #cc0000; 
+  background-color: #cc0000; 
 }
-
 .projects-section {
   text-align: center;  
   padding-right: 70px; 
   color: #393f28;
 }
-
-
 .gif-container2 {
   display: inline-block;
   margin-top: 20px; 
 }
-
 .content-wrapper {
   display: flex; 
   align-items: center; 
   justify-content: center; 
 }
-
-/* .projects-title {
-  margin-right: 20px; 
-} */
-
 .gif-container img {
   max-width: 100%; 
 }
 
-
 /* Responsiveness */
 /* Referenced YouTube video "How to Add Smooth Scrolling Anchor Links to Jump to a Specific 
-  Part of a Web Page - HTML & CSS" to get the anchor link to scroll smoothly */
-  html{
-    scroll-behavior: smooth;
-  }
+Part of a Web Page - HTML & CSS" to get the anchor link to scroll smoothly */
+html{
+  scroll-behavior: smooth;
+}
 
-
-
-
-  /* Footer */
-  footer {
-    background-color: white;
-    padding: 10px;
-    color: #393f28;
-    text-align: center;
-    display: flex;
-  }
-  .footer1{
-    background-color: white;
-    padding: 10px;
-    padding-right: 460px;
-    color: #393f28;
-    text-align: center;
-    display: flex;
-  }
-  
-  .gif-container {
-    margin-right: 100px;
-    margin-left: 100px;
-    margin-bottom: 5px;
-  }
-  
-  .footer-info {
-    color: #393f28;
-    flex-grow: 1;
-  }
-  
-  .footer-top {
-    padding-top: 30px;
-    color: #393f28;
-    margin-bottom: 20px;
-  }
-  
-  .footer-bottom {
-    padding: 30px;
-    padding-left: 100px;
-    color: #393f28;
-    padding-right: 105px;
-    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-
-  .footer-bottom1 {
-    padding: 30px;
-    padding-left: 210px;
-    padding-right: 105px;
-    color: #393f28;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .big-text {
-    font-size: 28px;
-    font-weight: bold;
-    color: #393f28;
-  }
-  
-  .small-text {
-    font-size: 24px;
-    color: #393f28;
-    
-  }
-  
-  .back-button {
-    padding: 10px 20px;
-    font-size: 20px;
-    background-color: #FF3333;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .contact-links a {
-    font-size: 26px;
-    font-weight: 600;
-    margin-left: 20px;
-    text-decoration: none;
-    color: #FF3333;
-  }
-  
-  .contact-links a i {
-    margin-left: 5px;
-  }
-
-
+/* Footer */
+footer {
+  background-color: white;
+  padding: 10px;
+  color: #393f28;
+  text-align: center;
+  display: flex;
+}
+.footer1{
+  background-color: white;
+  padding: 10px;
+  padding-right: 460px;
+  color: #393f28;
+  text-align: center;
+  display: flex;
+}
+.gif-container {
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 5px;
+}
+.footer-info {
+  color: #393f28;
+  flex-grow: 1;
+}
+.footer-top {
+  padding-top: 30px;
+  color: #393f28;
+  margin-bottom: 20px;
+}
+.footer-bottom {
+  padding: 30px;
+  padding-left: 100px;
+  color: #393f28;
+  padding-right: 105px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-bottom1 {
+  padding: 30px;
+  padding-left: 210px;
+  padding-right: 105px;
+  color: #393f28;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.big-text {
+  font-size: 28px;
+  font-weight: bold;
+  color: #393f28;
+}
+.small-text {
+  font-size: 24px;
+  color: #393f28;
+}
+.back-button {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #FF3333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.contact-links{
+  display: flex;
+  margin-right: 110px;
+}
+.contact-links a {
+  font-size: 26px;
+  font-weight: 600;
+  margin-left: 20px;
+  text-decoration: none;
+  color: #FF3333;
+}
+.contact-links a i {
+  margin-left: 5px;
+}
 
 /* About Me */
+.sidebar1 {
+  width: 40vw;
+  text-align:start;
+}
+.about-me-text{
+  font-size: 1.21vw; 
+  line-height: 1.5;
+  font-family: work-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.about-me{
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #393f28;
+  text-shadow: 2px 2px 4px rgba(206, 137, 137, 0.5);
+}
 .split-section-white {
   display: flex;
   align-items: flex-start;
 }
-
 .competitive-analysis-table-about-me {
   max-width: 50%; 
   height: auto; 
 }
-
-/* .about-me-image {
-  width: 60%; 
-  align-items: center;
-width: 80vw; 
-  padding: 10px 0;  
-  padding-left: 12vw; 
-  padding-right: 3vw; 
-} */
-
 .about-me-image {
   width: 60%;
   display: flex; 
   justify-content: center; 
   align-items: center; 
-  
 }
-
-
-/* 
-body {
-  padding: 0 20px; 
-} */
-
 .flex-container {
   display: flex;
   margin: 0 -20px; 
-
-  /* width: 30em; */
-  /* height: 30em; */
-    flex-direction: row;
-    flex-basis: auto; 
-    /* flex-wrap: wrap; */
-    
-    /* align-content: flex-start; */
-    justify-content: center;
-    gap: 9em;
+  flex-direction: row;
+  flex-basis: auto; 
+  justify-content: center;
+  gap: 9em;
 }
-
 .content-divs1 {
   width: 50%; 
   padding: 0 20px; 
   width: 30em;
-    height: 25em;
+  height: 25em;
 }
-
 .development-image {
   display: flex;
   justify-content: center; 
 }
-
 .development-image img {
   max-width: 100%; 
 }
-
-
-  
-  
-  
 
 /* Reference: Code is from my responsive redesign assignment so that the cards work well with the resizing of screens*/
 @media (max-width: 429px) {
@@ -648,33 +437,27 @@ body {
     flex-wrap: nowrap;
     align-content: flex-start;
     align-items: center;
-}
+  } 
 }
 
-  @media (min-width: 768px){
-.content {
-    display: flex;
-    flex-direction: row;
-    flex-basis: auto; 
-    /* flex-wrap: wrap; */
-    
-    /* align-content: flex-start; */
-    justify-content: center;
-    gap: 9em;
-    
-    /* padding: 0px 0px; */
-  }
-
-  .content-divs1, .content-divs2, .content-divs3, .content-divs4{
-    max-width: 95%;
-    padding: 60px 60px;
-  }  
-  h2{
-    font-size: 3rem;
-    margin:1.5rem;
-  }
-  nav ul {
-    flex-direction: row;
+@media (min-width: 768px){
+  .content {
+      display: flex;
+      flex-direction: row;
+      flex-basis: auto; 
+      justify-content: center;
+      gap: 9em;
+    }
+    .content-divs1, .content-divs2, .content-divs3, .content-divs4{
+      max-width: 95%;
+      padding: 60px 60px;
+    }  
+    h2{
+      font-size: 3rem;
+      margin:1.5rem;
+    }
+    nav ul {
+      flex-direction: row;
   }
 }
 
@@ -694,43 +477,33 @@ body {
   .text-below{
     flex-direction: row;
   }
-
-
-
   @media screen and (max-width: 1300px) {
     .image {
       width: 400px;
     }
   }
-  
   @media screen and (max-width: 1130px) {
     .image {
       width: 500px;
     }
-  
     .images {
       justify-content: center;
     }
   }
-  
   @media screen and (max-width: 650px) {
     .image {
       width: 400px;
     }
-  
     .split-section {
       flex-direction: column;
     }
-  
     .sidebar {
       width: 100vw;
       text-align: left;
     }
-  
     .main-header {
       font-size: 40px;
     }
-  
     .content {
       padding-left: 10vw;
     }
@@ -741,5 +514,4 @@ body {
       width: 300px;
     }
   }
-  
 }
