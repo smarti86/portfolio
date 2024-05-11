@@ -229,7 +229,7 @@ body {
 }
 .development-text{
   font-size: 1.2rem;
-  font-weight: 550;
+  font-weight: 400;
 }
 .case-specific-button {
   display: inline-block;
@@ -290,8 +290,13 @@ footer {
   display: flex;
 }
 .gif-container {
-  margin-right: 10px;
-  margin-left: 1px;
+  /* margin-right: 100px; */
+  /* margin-left: 100px; */
+  margin-bottom: 5px;
+}
+.gif-container1 {
+  padding-right: 1000px;
+  /* margin-left: 100px; */
   margin-bottom: 5px;
 }
 .footer-info {
