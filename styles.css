@@ -366,7 +366,7 @@ footer {
   text-align:start;
 }
 .about-me-text{
-  font-size: 1.21vw; 
+  font-size: 1.3vw; 
   line-height: 1.5;
   font-family: work-sans, sans-serif;
   font-weight: 400;
@@ -404,7 +404,7 @@ footer {
   flex-direction: row;
   flex-basis: auto; 
   justify-content: center;
-  gap: 9em;
+  gap: 3em;
 }
 .content-divs1 {
   width: 50%; 
