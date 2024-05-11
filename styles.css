@@ -295,7 +295,7 @@ footer {
   margin-bottom: 5px;
 }
 .gif-container1 {
-  padding-right: 1000px;
+  /* padding-right: 1000px; */
   /* margin-left: 100px; */
   margin-bottom: 5px;
 }
@@ -409,7 +409,7 @@ footer {
   width: 50%; 
   padding: 0 20px; 
   width: 35em;
-  height: 25em;
+  height: 28em;
 }
 .development-image {
   display: flex;
