@@ -90,6 +90,7 @@ body {
 .introduction-text {
   background-color: #f0f0f0;
   padding: 20px;
+  padding-right: 20px;
   border-radius: 10px;
   text-align: left;
   max-width: 900px; 
@@ -150,6 +151,7 @@ body {
 }
 .split-section-white {
   display: flex;
+  justify-content: space-around;
   padding-top: 20px; 
   padding-bottom: 20px;
   background-color: #ffffff;
@@ -158,7 +160,7 @@ body {
 .split-section-green {
   display: flex;
   justify-content: space-around;
-  padding: 20px 0;
+  padding: 20px;
   padding-top: 20px; 
   padding-bottom: 20px;
   background-color: #81d8cf5b;
@@ -373,6 +375,10 @@ footer {
   text-shadow: 2px 2px 4px rgba(206, 137, 137, 0.5);
 }
 .split-section-white {
+  display: flex;
+  align-items: flex-start;
+}
+.split-section-green {
   display: flex;
   align-items: flex-start;
 }
